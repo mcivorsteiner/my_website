@@ -1,3 +1,6 @@
+
+/********** GLOBAL **************/
+
 body {
 	font-family: Seravek, 'Nunito', sans-serif;
 	color: #FAF3BC;
@@ -5,39 +8,76 @@ body {
 }
 
 a {
-	color: #52F25D;
+	color: #F2ED52;
 	text-decoration: none;
 }
 
-p {
-	font-size: 1.300em;
+a:hover {
+	text-decoration: underline;
 }
 
+/*********** TYPOGRAPHY *************/
+
+p {
+	font-size: 1.400em;
+}
+
+
 h1 {
-	font-size: 1.600em;
+	font-family: Avenir;
+	font-size: 52px;
 	font-weight: normal;
 }
 
 h2 {
-	font-family: Cochin, sans-serif;
 	font-size: 1.800em;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: Cochin, sans-serif;
+	font-size: 2.00em;
 	color: #F2ED52;
 }
 
-ul.info {
-	margin: 40px 0 0 0;
+/************* HEADER *************/
+
+#header {
+	/*border-bottom: 1px solid black;*/
+	padding-bottom: 10px;
+	/*text-align: center;*/
+}
+
+#title_name {
+	color: #F2ED52;
+	margin: 20px 0 0 40px;
+}
+
+ul.nav {
+	margin: 130px 0 0 0;
 	list-style: none;
 	font-family: Cochin;
-	font-size: 1.600em;
+	font-size: 1.800em;
 	font-weight: bold;
 	color: #F2ED52;
 }
 
-ul.info li {
-	margin-right: 40px;
+ul.nav li {
+	float:left;
+	margin-right: 70px;
 }
 
-#logo {
+#cohort_logo {
+	margin-top: 70px;
+}
+
+#profile_pic{
+	margin-top: 20px;
+}
+
+/************* CONTENT *************/
+
+#intro {
 	margin-top: 20px;
 }
 
