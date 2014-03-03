@@ -28,8 +28,8 @@ p {
 
 
 h1 {
-	font-family: Avenir;
-	font-size: 3.25em; /*52px*/
+	font-family: Athelas;
+	font-size: 3em; /*40px*/
 	font-weight: normal;
 }
 
@@ -47,16 +47,22 @@ h3 {
 /************* HEADER *************/
 
 #header {
-	padding-bottom: 1%; /*10px*/
+	/*padding: 1% 0; /*10px*/
+}
+
+#profile_pic{
+	margin-top: 20px; /*20px*/
 }
 
 #title_name {
 	color: #F2ED52;
-	margin: 3.48% 0 0 6.96%; /*20px 0 0 40px*/
+	margin: 5.22% 0 0 6.96%; /*30px 0 0 40px*/
+	padding: 0;
 }
 
-ul.nav {
-	margin: 22.61% 0 0 0; /*130px 0 0 0*/
+#nav {
+	padding: 0;
+	margin: 22.61% 0 0 6.96%; /*130px 0 0 0*/
 	list-style: none;
 	font-family: Cochin;
 	font-size: 1.800em;
@@ -64,17 +70,14 @@ ul.nav {
 	color: #F2ED52;
 }
 
-ul.nav li {
+#nav li {
+	padding:0;
 	float:left;
 	margin-right: 10.435%; /*60px*/
 }
 
 #cohort_logo {
 	margin-top: 7%; /*70px*/
-}
-
-#profile_pic{
-	margin-top: 2%; /*20px*/
 }
 
 /************* CONTENT *************/
@@ -87,12 +90,17 @@ ul.nav li {
 	margin-top: 2%; /*20px*/
 }
 
+#tidbit-love {
+	box-sizing: border-box;
+}
+
 #tidbit-quirky {
 	box-sizing: border-box;
 	float: right;
 }
 
-#tidbit-love {
+#tidbit-love img {
+	border: 8px solid #FAF3BC; /*8px = 1.633%*/
 	box-sizing: border-box;
 }
 
@@ -103,11 +111,122 @@ ul.nav li {
 	width: 100%;
 }
 
-#tidbit-love img {
-	border: 8px solid #FAF3BC; /*8px = 1.633%*/
-	/*margin: 0 20px 20px 0;*/
-	box-sizing: border-box;
+
+/************* MEDIA QUERIES *************/
+
+@media screen and (max-width: 925px) {
+	#cohort_logo {
+		display: none;
+	}
+
+	#name_nav {
+		width:74.5%;/*745px*/
+		margin: 0;
+	}
+
+	#title_name {
+		margin: 4.028% 0 0 5.37%; /*30px 0 0 40px*/
+	}
+
+	#nav {
+		margin: 17.45% 0 0 5.37%; /*130px 0 0 0*/
+	}
+	
+	#nav li {
+		margin-right: 8.054%; /*60px*/
+	}
+
+	#intro {
+		width: 100%;
+		margin-top: 2%; /*20px*/
+	}
+
+	#intro_pic {
+		display: none;
+	}
+
+	#profile_pic{
+		margin-top: 4%; /*20px*/
+	}
+
 }
+
+
+@media screen and (max-width: 700px) {
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width: 100%;
+	}
+
+	/** {
+		border: 1px solid red;
+	}*/
+
+	#profile_pic{
+		margin-top: 4%; /*20px*/
+		width: 40%;
+	}
+
+	#name_nav {
+		width:100%;/*745px*/
+		margin: 0;
+	}
+
+	#title_name {
+		margin: 2.685% 0 0 0; /*20px 0 0 40px*/
+	}
+
+	#nav {
+		margin: 4% 0 0 0; /*130px 0 0 0*/
+	}
+	
+	#nav li {
+		margin-right: 8.054%; /*60px*/
+	}
+
+	#tidbit-love img{
+		width:50%;
+	}
+
+	#tidbit-quirky img {
+		margin: 2% 2%; /*20px*/
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#title_name {
+		font-size: 2.75em;
+	}
+
+	#nav {
+		margin-bottom: 4%;
+	}
+
+	#nav li{
+		float:none;
+	}
+
+	#tidbit-love img{
+		width:80%;
+	}
+
+	#tidbit-quirky img {
+		margin: 2% 2%; /*20px*/
+		width: 80%;
+	}
+}
+
 
 
 
