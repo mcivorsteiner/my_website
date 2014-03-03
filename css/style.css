@@ -19,33 +19,31 @@ a:hover {
 /*********** TYPOGRAPHY *************/
 
 p {
-	font-size: 1.400em;
+	font-size: 1.500em; /*24px*/
 }
 
 
 h1 {
 	font-family: Avenir;
-	font-size: 52px;
+	font-size: 3.25em; /*52px*/
 	font-weight: normal;
 }
 
 h2 {
-	font-size: 1.800em;
+	font-size: 1.875em; /*30px*/
 	font-weight: normal;
 }
 
 h3 {
 	font-family: Cochin, sans-serif;
-	font-size: 2.00em;
+	font-size: 2.00em; /*32px*/
 	color: #F2ED52;
 }
 
 /************* HEADER *************/
 
 #header {
-	/*border-bottom: 1px solid black;*/
 	padding-bottom: 10px;
-	/*text-align: center;*/
 }
 
 #title_name {
