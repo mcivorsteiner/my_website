@@ -16,6 +16,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+img {
+	max-width: 100%;
+}
+
 /*********** TYPOGRAPHY *************/
 
 p {
@@ -83,13 +87,26 @@ ul.nav li {
 	margin-top: 20px;
 }
 
+#tidbit-quirky {
+	box-sizing: border-box;
+	float: right;
+}
+
+#tidbit-love {
+	box-sizing: border-box;
+}
+
 #tidbit-quirky img {
 	border: 8px solid #FAF3BC;
-	margin: 0 0 20px 0;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	width: 100%;
 }
 
 #tidbit-love img {
 	border: 8px solid #FAF3BC;
+	/*margin: 0 20px 20px 0;*/
+	box-sizing: border-box;
 }
 
 
