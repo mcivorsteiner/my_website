@@ -1,0 +1,68 @@
+// $font-size-base: 20px;
+// $font-size-h1: 12px;
+// $font-size-h2: 1.75em;
+// $font-size-h3: 1.5em;
+// $font-size-h4: 1.1em;
+// $font-size-h5: 1em;
+
+/********** GLOBAL *************/
+body {
+  font-family: 'Helvetica Neue', Cochin;
+  background: #bdc3c7;
+}
+
+/********** TYPOGRAPHY *************/
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+  margin: .2em 0;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+/********** HEADER *************/
+#page-title {
+  text-align: center;
+}
+
+/********** METHODS *************/
+
+.method {
+  margin: 0 0 0 0%;
+  padding: 0 0 0 1%;
+  background: #95a5a6;
+}
+
+.method-name:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
