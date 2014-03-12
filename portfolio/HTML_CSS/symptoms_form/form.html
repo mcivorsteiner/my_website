@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DBC Symptoms Form</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+</head>
+<body>
+  
+  <div id="container">
+    <h1>DBC Symptoms Form</h1>
+
+    <form action="#" method="POST" name="symptoms_form">
+      <fieldset>
+        <legend align="center"><h2>Personal Information</h2></legend>
+
+        <!------NAME---->
+
+        <label for="first_name"><strong>First Name:</strong><label>
+        <input type="text" name="first_name" id="first_name"><br>
+        <label for="last_name"><strong>Last Name:</strong><label>
+        <input type="text" name="last_name" id="last_name"><br>
+        <br>
+
+        <!------GENDER---->
+
+        <label><strong>Gender:</strong></label><br>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label><br>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label><br>
+        <br>
+
+        <!------AGE---->
+
+        <label for="age"><strong>Age:</strong></label><br>
+        <select name="age" id="age">
+          <option>Choose One</option>
+          <option>13-19 years</option>
+          <option>20-24 years</option>
+          <option>25-34 years</option>
+          <option>35-44 years</option>
+          <option>45-54 years</option>
+          <option>55-64 years</option>
+          <option>65+ years</option>
+        </select><br>
+        <br>
+
+        <!-----DBC COHORT------>
+        
+        <label for="cohort"><strong>DBC Cohort:</strong></label><br>
+        <select name="cohort" id="cohort">
+          <option>Choose One</option>
+          <optgroup label="San Fransisco">
+            <option>Red Admirals 2014</option>
+            <option>Pocket Gophers 2014</option>
+            <option>Fiery Skippers 2014</option>
+          </optgroup>
+          <optgroup label="Chicago">
+            <option>Nighthawks 2014</option>
+            <option>Dragonflies 2014</option>
+            <option>Grasshoppers 2014</option>
+          </optgroup>
+          <optgroup label="New York City">
+            <option>Spring Peepers 2014</option>
+            <option>Fiddler Crabs 2014</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <br>
+
+      <fieldset>
+        <legend align="center"><h2>Symptoms</h2></legend>
+
+        <!------SLEEP------>
+
+        <label for="sleep_amt"><strong>Average Amount of Sleep Over Last 2 Weeks:</strong></label><br>
+        <select name="sleep_amt" id="sleep_amt">
+          <option>Choose One</option>
+          <option>Under 4 hrs</option>
+          <option>4-5 hrs</option>
+          <option>5-6 hrs</option>
+          <option>6-7 hrs</option>
+          <option>7-8 hrs</option>
+          <option>8-9 hrs</option>
+          <option>9+ hrs</option>
+        </select><br>
+        <br>
+
+        <!------SYMPTOMS CHECKLIST---->
+        
+        <label for="symptoms"><strong>Symptoms</strong> (check all that apply):</label><br>
+        <input type="checkbox" name="symptoms" value="anxiety" id="anxiety"><label for="anxiety">Anxiety</label><br>
+        <input type="checkbox" name="symptoms" value="chills" id="chills"><label for="chills">Chills</label><br>
+        <input type="checkbox" name="symptoms" value="cough" id="cough"><label for="cough">Cough</label><br>
+        <input type="checkbox" name="symptoms" value="decrease_appetite" id="decrease_appetite"><label for="decrease_appetite">Decreased Appetite</label><br>
+        <input type="checkbox" name="symptoms" value="craving_ice" id="craving_ice"><label for="craving_ice">Craving to eat ice, dirt or paper</label><br>
+        <br>
+        
+        <!------SYMPTOMS ESSAY---->
+        
+        <label for="symptoms_more"><strong>Additional Symptoms and/or Comments</strong></label><br>
+        <textarea name="symptoms_more" id="symptoms_more" rows="10" cols="30"></textarea>
+      </fieldset>
+      <br>
+
+      <input type="submit" value="Submit">
+      <br>
+    </form>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    $("#age").prop('selectedIndex', -1);
+  </script>
+</body>
+</html>

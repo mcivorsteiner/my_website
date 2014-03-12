@@ -1,0 +1,35 @@
+/********* GLOBAL *********/
+
+body {
+  background: lightblue;
+  min-width: 480px;
+  max-width: 1000px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+/********* TYPOGRAPY ***********/
+
+h1 {
+  text-align: center;
+  font-family: Avenir;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: Avenir, Copperplate;
+}
+
+form input, select, label {
+  font-family: Corbel, Avenir;
+  font-size: 20px;
+}
+
+textarea {
+  font-size: 18px;
+}
+

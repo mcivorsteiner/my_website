@@ -1,80 +1,65 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Ki's Website Homepage</title>
-  <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-</head>
-
-<body>
-  <div class="container clearfix">
-
-     <!--######### HEADER #########-->
-
-    <div id="header" class="clearfix">
-      <img id="profile_pic" class="grid_3" src="img/ki_hiking_square.jpg" alt="Ki's Profile Photo">
-
-      <div id="name_nav" class="grid_7 omega clearfix">
-        <h1 id="title_name">McIvor (Ki) Steiner</h1>
-        <ul id="nav" class="clearfix">
-          <li><a href="#">About<a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+  <head>
+    <meta charset="utf-8">
+    <title>McIvor Steiner | Web Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>McIvor Steiner</h1>
+        <h2>Web Developer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <li id="bakin">
+            <a href="portfolio/HTML_CSS/smells_like_bakin/bakin_responsive.html">
+              <img src="portfolio/HTML_CSS/smells_like_bakin/img/logo.gif" alt="">
+              <p>"Smells Like Bakin'" Responsive Website.</p>
+            </a>
+          </li>
 
-      <img id="cohort_logo" class="grid_2 omega" src="img/PocketGopher_print.png" alt="Pocket Gopher Logo">
+          <li id="menu">
+            <a href="portfolio/HTML_CSS/dev_pizza_camp/menu.html">
+              <img src="img/menu_thumb.jpg">
+              <p>Dev Pizza Camp Menu.</p>
+            </a>
+          </li>
+
+          <li id="symptoms_form">
+            <a href="portfolio/HTML_CSS/symptoms_form/form.html">
+              <img src="img/symptoms_form_thumb.jpg" alt="">
+              <p>DBC Medical Symptoms Form.</p>
+            </a>
+          </li>
+
+          <li id="old_profile">
+            <a href="portfolio/HTML_CSS/old_profile/index.html">
+              <img src="img/old_profile_thumb.jpg" alt="">
+              <p>My old profile page.</p>
+            </a>
+          </li>
+
+        </ul>
+      </section>
+      <footer>
+        <a href="https://twitter.com/mcivorsteiner"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="https://www.facebook.com/mcivorsteiner"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2014 McIvor Steiner.</p>
+      </footer>
     </div>
-
-    <!--######### INTRO #########-->
-
-    <div id="intro" class="grid_9">
-      <h2>Hey, I'm Ki.  My real name is McIvor Steiner, but most people call me Ki.  This generally tends to confuse people when I meet them because "Ki" does not appear in the name "McIvor". I don't really have an explaination. McIvor is a family name, and I inherited the nickname.  I also recently found out that I share a name with a fine Scotch Whisky.</h2>
-    </div>
-
-      <img id="intro_pic" class="grid_3 omega" src="img/mcivor_scotch_logo.jpg" alt="McIvor Scotch Logo">
-
-    <!--######### WHAT I LOVE #########-->
-
-    <div id="tidbit-love" class="grid_6">
-      <h3>Something I Love</h3>
-      <p>I love MN! I am a proud Minnesotan, love the people, love the lakes. During our long and cold winters, I love skating on the frozen lakes, and during our hot summers, I love boating and water sports on our lakes.</p>
-      <img src="img/minnesota_poster.jpg" alt="Minnesota Poster">
-    </div>
-
-    <!--######### QUIRKY #########-->
-
-    <div id="tidbit-quirky" class="grid_5 omega">
-      <h3>Something Quirky</h3>
-      <p>I have a coin collection.  When I was younger, I loved going through all the coins I could find and I had books for each type of coin where I could keep one coin from each year from each mint!</a>.</p>
-      <img src="img/coin-collecting-book.jpg" alt="Coin Collecting Book">
-      <img src="img/penny.jpeg" alt="US Penny 1909">
-    </div>
-
-    <!--######### CURRENT SITUATION #########-->
-
-    <div class="grid_7">
-      <h3>Current Situation</h3>
-      <p>Currently living in Sun Valley, Idaho, studying for DBC and working part-time at Whisky Jacques</p>
-    </div>
-
-    <!--######### CONTACT INFO #########-->
-
-    <div class="grid_5 omega">
-      <h3>My Contact Info</h3>
-
-      <div id="contact">
-        <p>Phone: <span>612-963-XXXX</span><br>
-          Email: <a href="#">XXXXX@gmail.com</a></p>
-      </div>
-
-      <a href="https://www.facebook.com/mcivorsteiner"><img src="img/facebook.gif" alt="Facebook"></a>
-      <a href="https://twitter.com/mcivorsteiner"><img src="img/twitter.gif" alt="Twitter"></a>
-    </div>
-
-  </div>
-</body>
+  </body>
 </html>
