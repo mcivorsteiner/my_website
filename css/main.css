@@ -101,6 +101,7 @@ footer {
   width: 20px;
   height: 20px;
   margin: 0 5px;
+  border-radius: 3px;
 }
 
 
@@ -150,7 +151,13 @@ PAGE: ABOUT
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
-  border-radius: 100%;
+  border-radius: 15%;
+}
+
+#mn_poster {
+  display: block;
+  max-width: 200px;
+  margin: 30px auto;
 }
 
 
@@ -182,11 +189,11 @@ PAGE: CONTACT
 .contact-info li.mail a {
   background-image: url('../img/mail.png');
 }
-
+/*
 .contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
+  background-image: url('../img/linkedin-small.png');
 }
-
+*/
 
 
 /**********************************
@@ -201,13 +208,13 @@ body {
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #3498db;
+  border-color: #2980b9;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #2980b9;
 }
 
 /* logo text */
@@ -217,7 +224,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #3498db;
 }
 
 /* nav link */
@@ -227,10 +234,15 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #184d70;
 }
 
 
+/**********************************
+CLEARFIX
+***********************************/
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
 
 
 

@@ -40,6 +40,11 @@
     float: left;
     margin: 0 5% 80px 0;
   }
+
+  #mn_poster {
+    float: right;
+    margin: 30px 0 0 5%;
+  }
   
 }
 
@@ -75,10 +80,18 @@
   }
   
   header {
-    border-bottom: 5px solid #599a68;
+    border-bottom: 5px solid #2980b9;
     margin-bottom: 60px;
   }
 
+  /**********************************
+  PAGE: ABOUT
+  ***********************************/
+
+  #mn_poster {
+    float: right;
+    margin: 0 0 0 5%;
+  }
   
 }
 
